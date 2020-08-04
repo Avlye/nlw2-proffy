@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center">
 
   ![Proffy - Next Level Week 2 - Rocketseat](./design/images/logo.png)
 
-</p>
+</div>
 
-<p align="center">
+<div align="center">
 
 [![Twitter Badge](https://img.shields.io/badge/-@avlyev-00a1f4?style=flat-square&labelColor=ab0387&logo=twitter&logoColor=white&link=https://twitter.com/avlyev)](https://twitter.com/avlyev)
 [![Linkedin Badge](https://img.shields.io/badge/-avlye-00a1f4?style=flat-square&labelColor=ab0387&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/avlye/)](https://www.linkedin.com/in/avlye/)
@@ -12,15 +12,15 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?color=ab0387)](./LICENSE)
 [![Build Status](https://travis-ci.org/Avlye/nlw2-proffy.svg?branch=master)](https://travis-ci.org/Avlye/nlw2-proffy)
 
-</p>
+</div>
 
-<p align="center">
+<div align="center">
 
 ```typescript
 console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 ```
 
-</p>
+</div>
 
 ## 👽 Alien of Contents
 
@@ -43,7 +43,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 ## 🎨 2. Design
 
-<p align="center">
+<div align="center">
 
 ![Cover Web - NLW2 - Proffy](./design/images/cover.png)
 
@@ -55,7 +55,7 @@ Tiago is a methodical guy and passionate about design.
 
 Also he uses some kind of hack in his life, but don't tell everyone.
 
-</p>
+</div>
 
 
 ### 💿 2.1 Download Layouts for Figma
