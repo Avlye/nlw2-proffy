@@ -4,7 +4,12 @@ const app = express()
 
 // GET /users
 app.get('/users', (request, response) => {
-  response.send('Hellllo Amigo!!!!')
+  const users = [
+    { name: 'Diego', age: 25 },
+    { name: 'Vini', age: 21 }
+  ]
+
+  return response.json(users)
 })
 
 // http://localhost:3333
