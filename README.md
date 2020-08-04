@@ -31,6 +31,8 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
   - [2.2 Preview](#2.2-Preview)
 
 - [3. Our Stack](#💻-3.-Our-Stack)
+- [4. How To Use](#4.-How-To-Use)
+- [5. 📕 License](#📕-License)
 
 
 ## 1. What's Is Proffy?
@@ -110,6 +112,51 @@ It's has a great community support and fills perfect for build REST APIs.
 ### OK now but WHY SCSS instead of CSS?
 
 Both solutions are great, SCSS helps us to build more productivity and component based stylesheets for your apps without using alternatives like Styled-Components.
+
+## 4. How To Use
+
+As any rocketship 🚀, it's important to us that you can use this project.
+
+First clone this repo:
+
+```zsh
+$ git clone https://github.com/Avlye/nlw2-proffy.git
+```
+
+Now each folder has a subproject, that you can follow the instructions bellow for knowing how to use. Trust me, you don't need to be a alien 👽 (that's optional, okay?).
+
+### Configure Dependencies
+
+![Goku! <3](https://media.giphy.com/media/cPfjwUZtwArxyHVqjz/giphy.gif)
+
+We provide some guides here than can help you:
+
+- [`Preparando o Ambiente (PT-BR)` by @RocketSeat](https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767)
+
+### Web Project
+
+#### Requirements
+
+- Node.js
+- Yarn
+
+### Speed up thrusters
+
+```zsh
+
+# Go to the web folder
+# cd means change directory
+# cd <path>
+$ cd nlw2-proffy/web
+
+# Install Dependencies (with YARN)
+$ yarn install
+
+# Run the Web App
+$ yarn start
+```
+
+Don't be shy, go to [http://localhost:3000](http://localhost:3000) to see the result.
 
 ## 📕 License
 
