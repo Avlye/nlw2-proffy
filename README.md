@@ -38,7 +38,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 ## 1. What's Is Proffy?
 
-📖 Proffy it's a plataform for connection teachers and students around the world.
+📖 Proffy is a plataform for connection teachers and students around the world.
 
 **You deserve the best of education, connect with the best teachers in each subject.**
 
