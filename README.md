@@ -69,8 +69,8 @@ Also he uses some kind of hack in his life, but don't tell everyone.
 
 <div align="center">
 
-[![Mobile](./design/images/mobile.png)]()
-[![Web](./design/images/web.png)]()
+[![Mobile](./design/images/mobile.png)](https://github.com/Avlye/nlw2-proffy/blob/master/design/figma/Proffy%20Mobile.fig?raw=true)
+[![Web](./design/images/web.png)](https://github.com/Avlye/nlw2-proffy/blob/master/design/figma/Proffy%20Web.fig?raw=true)
 
 </div>
 
