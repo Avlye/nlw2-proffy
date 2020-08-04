@@ -13,3 +13,15 @@
     - [x] Subjects
     - [x] Weekdays
     - [x] Time
+
+
+# Non-Functional Requirements
+
+## Eslint
+
+- [x] Configure ESLint using Standard Style Guide
+
+
+## Postgres SQL
+
+-  [ ] Configure Postgres via Docker

@@ -1,16 +1,18 @@
+
 import { Request, Response } from 'express'
 
-import { db } from '../database/connection';
-import { convertHourToMinutes } from '../utils/convertHoursToMinutes';
+import { db } from '../database/connection'
+import { convertHourToMinutes } from '../utils/convertHoursToMinutes'
 
 interface ScheduleItem {
+  // eslint-disable-next-line camelcase
   week_day: number,
   from: string,
   to: string
 }
 
 export class ClassesController {
-  async index(request: Request, response: Response) {
+  async index (request: Request, response: Response) {
     const filters = request.query
 
     if (!filters.subject || !filters.week_day || !filters.time) {
@@ -20,7 +22,7 @@ export class ClassesController {
     }
 
     const subject = filters.subject as string
-    const week_day = filters.week_day as string
+    const weekDay = filters.week_day as string
     const time = filters.time as string
 
     const timeInMinutes = convertHourToMinutes(time)
@@ -31,7 +33,7 @@ export class ClassesController {
           .from('class_schedule')
           .whereRaw('`class_schedule`.`class_id` = `classes`.`id`')
           .whereRaw('`class_schedule`.`week_day` = ??', [
-            Number(week_day)
+            Number(weekDay)
           ])
           .whereRaw('`class_schedule`.`from` <= ??', [
             timeInMinutes
@@ -47,7 +49,7 @@ export class ClassesController {
     return response.json(classes)
   }
 
-  async create(request: Request, response: Response) {
+  async create (request: Request, response: Response) {
     const {
       name,
       avatar,
@@ -56,9 +58,9 @@ export class ClassesController {
       subject,
       cost,
       schedule
-    } = request.body;
+    } = request.body
 
-    const trx = await db.transaction();
+    const trx = await db.transaction()
 
     try {
       const insertedUsersIds = await trx('users').insert({
@@ -68,19 +70,19 @@ export class ClassesController {
         bio
       })
 
-      const user_id = insertedUsersIds[0]
+      const userId = insertedUsersIds[0]
 
       const insertedClassesIds = await trx('classes').insert({
         subject,
         cost,
-        user_id
+        user_id: userId
       })
 
-      const class_id = insertedClassesIds[0]
+      const classId = insertedClassesIds[0]
 
       const classSchedule = schedule.map((scheduleItem: ScheduleItem) => {
         return {
-          class_id,
+          class_id: classId,
           week_day: scheduleItem.week_day,
           from: convertHourToMinutes(scheduleItem.from),
           to: convertHourToMinutes(scheduleItem.to)
@@ -91,8 +93,7 @@ export class ClassesController {
 
       await trx.commit()
 
-      return response.status(201).send();
-
+      return response.status(201).send()
     } catch (error) {
       console.error(error)
 

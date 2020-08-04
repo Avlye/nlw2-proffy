@@ -1,4 +1,4 @@
-export function convertHourToMinutes(times: string) {
+export function convertHourToMinutes (times: string) {
   // 8:00
 
   const [hour, minutes] = times.split(':').map(Number)
