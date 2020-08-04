@@ -16,7 +16,7 @@
 
 <div align="center">
 
-```ts
+```javascript
 console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 ```
 
