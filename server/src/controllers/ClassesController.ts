@@ -5,7 +5,6 @@ import { db } from '../database/connection'
 import { convertHourToMinutes } from '../utils/convertHoursToMinutes'
 
 interface ScheduleItem {
-  // eslint-disable-next-line camelcase
   week_day: number,
   from: string,
   to: string

@@ -1,5 +1,9 @@
 import Knex from 'knex'
 
+const databaseNOW = process.env.DATABASE === 'pg'
+  ? 'now()'
+  : 'CURRENT_TIMESTAMP'
+
 export async function up (knex: Knex) {
   return knex.schema.createTable('connections', table => {
     table.increments('id').primary()
@@ -13,7 +17,7 @@ export async function up (knex: Knex) {
 
     table.timestamp('created_at')
       // .defaultTo('now()')
-      .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
+      .defaultTo(knex.raw(databaseNOW))
       .notNullable()
   })
 }

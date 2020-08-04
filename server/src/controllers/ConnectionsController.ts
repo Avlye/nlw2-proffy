@@ -10,10 +10,10 @@ export class ConnectionsController {
   }
 
   async create (request: Request, response: Response) {
-    const { user_id: userId } = request.body
+    const { user_id } = request.body
 
     await db('connections').insert({
-      userId
+      user_id
     })
 
     response.status(201).send()

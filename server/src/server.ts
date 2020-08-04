@@ -12,4 +12,6 @@ app.use(express.json())
 app.use(routes)
 
 // BASE_URL: http://localhost:3333/resources?parameters=value
-app.listen(3333, () => console.log('Server running ...'))
+app.listen(3333, () => {
+  console.log('Server running ...')
+})
