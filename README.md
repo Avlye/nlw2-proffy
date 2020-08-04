@@ -1,21 +1,10 @@
-<style>
-.text-center {
-  text-align: center;
-}
-.badges a:not(:last-child) {
-  margin-right: 8px;
-}
-</style>
-
-<div class="text-center">
+<p align="center">
 
   ![Proffy - Next Level Week 2 - Rocketseat](./design/images/logo.png)
 
-</div>
+</p>
 
-<div class="text-center">
-
-<div class="badges">
+<p align="center">
 
 [![Twitter Badge](https://img.shields.io/badge/-@avlyev-00a1f4?style=flat-square&labelColor=ab0387&logo=twitter&logoColor=white&link=https://twitter.com/avlyev)](https://twitter.com/avlyev)
 [![Linkedin Badge](https://img.shields.io/badge/-avlye-00a1f4?style=flat-square&labelColor=ab0387&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/avlye/)](https://www.linkedin.com/in/avlye/)
@@ -23,17 +12,15 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?color=ab0387)](./LICENSE)
 [![Build Status](https://travis-ci.org/Avlye/nlw2-proffy.svg?branch=master)](https://travis-ci.org/Avlye/nlw2-proffy)
 
-</div>
+</p>
 
-</div>
-
-<div class="text-center">
+<p align="center">
 
 ```typescript
 console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 ```
 
-</div>
+</p>
 
 ## 👽 Alien of Contents
 
@@ -56,7 +43,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 ## 🎨 2. Design
 
-<div class="text-center">
+<p align="center">
 
 ![Cover Web - NLW2 - Proffy](./design/images/cover.png)
 
@@ -68,7 +55,7 @@ Tiago is a methodical guy and passionate about design.
 
 Also he uses some kind of hack in his life, but don't tell everyone.
 
-</div>
+</p>
 
 
 ### 💿 2.1 Download Layouts for Figma
