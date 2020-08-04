@@ -22,6 +22,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 </div>
 
+
 ## 👽 Alien of Contents
 
 - [1. What's Is Proffy?](#1-whats-is-proffy)
@@ -42,6 +43,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 **You deserve the best of education, connect with the best teachers in each subject.**
 
 *Proffy* is a cute way of saying "hey teacher" in fundamental schools in Brazil.
+
 
 ## 🎨 2. Design
 
@@ -81,6 +83,7 @@ Also he uses some kind of hack in his life, but don't tell everyone.
 
 ![Preview Mobile](./design/images/preview-mobile.png)
 
+
 ## 💻 3. Our Stack
 
 We choose our stack based on the best spaceship 🚀 technologies available.
@@ -98,7 +101,7 @@ TypeScript is a great superset for JavaScript, helps us to be more productivity 
 ### Why React Native?
 
 We use React as our main front-end library for development interfaces,
-React Native helps us to transfer our skills across devises, development cross-platform (IOS & Android) apps.
+React Native helps us to transfer our skills across devices, development cross-platform (IOS & Android) apps.
 
 ### Why Expo?
 
@@ -111,7 +114,7 @@ It's has a great community support and fills perfect for build REST APIs.
 
 ### OK now but WHY SCSS instead of CSS?
 
-Both solutions are great, SCSS helps us to build more productivity and component based stylesheets for your apps without using alternatives like Styled-Components.
+Both solutions are great, SCSS helps us to build more productivity and component based stylesheets for your apps without needing to use alternatives like Styled-Components.
 
 ## 4. How To Use
 
