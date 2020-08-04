@@ -24,15 +24,15 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 ## 👽 Alien of Contents
 
-- [1. What's Is Proffy?](#1.-What's-Is-Proffy?)
+- [1. What's Is Proffy?](#1-whats-is-proffy)
 
-- [2. Design](#🎨-2.-Design)
-  - [2.1 Download Layouts for Figma](#💿-2.1-Download-Layouts-for-Figma)
-  - [2.2 Preview](#2.2-Preview)
+- [2. Design](#-2-design)
+  - [2.1 Download Layouts for Figma](#-21-download-layouts-for-figma)
+  - [2.2 Preview](#22-preview)
 
-- [3. Our Stack](#💻-3.-Our-Stack)
-- [4. How To Use](#4.-How-To-Use)
-- [5. 📕 License](#📕-License)
+- [3. Our Stack](#-3-our-stack)
+- [4. How To Use](#4-how-to-use)
+- [5. 📕 License](#-license)
 
 
 ## 1. What's Is Proffy?
