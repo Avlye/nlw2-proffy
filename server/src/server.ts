@@ -12,5 +12,5 @@ app.get('/users', (request, response) => {
   return response.json(users)
 })
 
-// http://localhost:3333
+// BASE_URL: http://localhost:3333/resources?parameters=value
 app.listen(3333, () => console.log("Server running ..."))
