@@ -23,7 +23,10 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 </div>
 
 
-## 👽 Alien of Contents
+👽 Alien of Contents
+=================
+
+<!--ts-->
 
 - [1. What's Is Proffy?](#1-whats-is-proffy)
 
@@ -34,7 +37,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 - [3. Our Stack](#-3-our-stack)
 - [4. How To Use](#4-how-to-use)
 - [5. 📕 License](#-license)
-
+<!--te-->
 
 ## 1. What's Is Proffy?
 
@@ -138,7 +141,7 @@ Now each folder has a subproject, that you can follow the instructions bellow fo
 
 We provide some guides here than can help you:
 
-- [`Preparando o Ambiente (PT-BR)` by @RocketSeat](https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767)
+- [`Preparando o Ambiente` by @RocketSeat](https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767)
 - [`O Guia DEFINITIVO de UBUNTU para Devs Iniciantes` by Fabio Akita](https://www.youtube.com/watch?v=epiyExCyb2s)
 - [`Editor de Código sensacional para Programador Frontend, Backend ou Full Stack` by Filipe Deschamps](https://www.youtube.com/watch?v=Q7YfzbJRzm0)
 
