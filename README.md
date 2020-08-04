@@ -23,7 +23,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 </div>
 
 
-👽 Alien of Contents
+👽 Table of Contents
 =================
 
 <!--ts-->
@@ -169,6 +169,39 @@ $ yarn start
 ```
 
 Don't be shy, go to [http://localhost:3000](http://localhost:3000) to see the result.
+
+## Server Project
+
+### Requirements
+
+- Node.js
+- Yarn
+- SQlite3
+
+Psiu: This maybe can help you install SQLite. 😉
+
+```zsh
+# Installing SQLite3 on Ubuntu
+sudo apt install sqlite3 libsqlite3-dev -y
+```
+
+### Speed up thrusters: Turbo 2
+
+```zsh
+# Go to the server project
+$ cd nlw2-proffy/server
+
+# Install Dependencies (with Yarn)
+$ yarn install
+
+# Make Migrations
+$ yarn knex:migrate
+
+# Run Server
+$ yarn start
+```
+
+Server would be running at [http://localhost:3333](http://localhost:3333) by default.
 
 ## 📕 License
 
