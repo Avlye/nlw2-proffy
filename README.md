@@ -62,7 +62,7 @@ Also he uses some kind of hack in his life, but don't tell everyone.
 
 ### 💿 2.1 Download Layouts for Figma
 
-<div class="text-center badges">
+<div align="center">
 
 [![Mobile](./design/images/mobile.png)]()
 [![Web](./design/images/web.png)]()
@@ -127,7 +127,11 @@ Now each folder has a subproject, that you can follow the instructions bellow fo
 
 ### Configure Dependencies
 
+<div align="center">
+
 ![Goku! <3](https://media.giphy.com/media/cPfjwUZtwArxyHVqjz/giphy.gif)
+
+</div>
 
 We provide some guides here than can help you:
 
