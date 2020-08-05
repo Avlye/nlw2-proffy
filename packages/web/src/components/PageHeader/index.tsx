@@ -2,8 +2,8 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import LogoImg from '../../assets/images/logo.svg'
 import BackIcon from '../../assets/images/icons/back.svg'
+import LogoImg from '../../assets/images/logo.svg'
 
 import './styles.scss'
 

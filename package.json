@@ -1,0 +1,21 @@
+{
+  "name": "nlw2-proffy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:server": "yarn --cwd ./packages/server start",
+    "start:web": "yarn --cwd ./packages/web start"
+  },
+  "repository": "https://github.com/Avlye/nlw2-proffy.git",
+  "author": "Gabriel Almir <avlye@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}

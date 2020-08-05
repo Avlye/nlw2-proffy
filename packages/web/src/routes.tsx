@@ -1,9 +1,10 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
 
 import { Landing } from './pages/Landing'
-import { TeacherList } from './pages/TeacherList'
 import { TeacherForm } from './pages/TeacherForm'
+import { TeacherList } from './pages/TeacherList'
+
+import { BrowserRouter, Route } from 'react-router-dom'
 
 export function Routes () {
   return (

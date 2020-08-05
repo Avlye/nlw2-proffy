@@ -1,7 +1,8 @@
 import React from 'react'
 
-import './assets/scss/global.scss'
 import { Routes } from './routes'
+
+import './assets/scss/global.scss'
 
 function App () {
   return <Routes />
