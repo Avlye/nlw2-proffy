@@ -10,7 +10,7 @@
   <a href="https://github.com/Avlye/nlw2-proffy" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?color=ab0387" />
   </a>
-  <a href="https://opensource.org/licenses/MIT" target="_blank">
+  <a href="https://github.com/Avlye/nlw2-proffy/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg?color=ab0387" />
   </a>
   <a href="https://twitter.com/avlyev" target="_blank">
