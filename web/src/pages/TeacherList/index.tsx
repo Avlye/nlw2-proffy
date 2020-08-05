@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-import { PageHeader } from '../../components/PageHeader';
-import { TeacherItem } from '../../components/TeacherItem';
+import { PageHeader } from '../../components/PageHeader'
+import { TeacherItem } from '../../components/TeacherItem'
 
-import "./styles.scss"
+import './styles.scss'
 
-export function TeacherList() {
+export function TeacherList () {
   return (
     <div id="page-teacher-list" className="container">
       <PageHeader title="Estes são os proffys disponíveis">

@@ -9,9 +9,9 @@ import StudyIcon from '../../assets/images/icons/study.svg'
 import GiveClassesIcon from '../../assets/images/icons/give-classes.svg'
 import PurpleHearIcon from '../../assets/images/icons/purple-heart.svg'
 
-import "./styles.scss"
+import './styles.scss'
 
-export function Landing() {
+export function Landing () {
   return (
     <div id="page-landing">
       <div id="page-landing-content" className="container">

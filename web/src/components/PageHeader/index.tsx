@@ -1,14 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-import LogoImg from '../../assets/images/logo.svg';
-import BackIcon from '../../assets/images/icons/back.svg';
+import LogoImg from '../../assets/images/logo.svg'
+import BackIcon from '../../assets/images/icons/back.svg'
 
-import "./styles.scss"
+import './styles.scss'
 
 interface PageHeaderProps {
-  title: string
+  title: string,
+  description?: string
 }
 
 export const PageHeader: React.FC<PageHeaderProps> = (props) => {
@@ -24,10 +25,13 @@ export const PageHeader: React.FC<PageHeaderProps> = (props) => {
 
       <div className="header-content">
         <strong>{props.title}</strong>
+        { props.description && (
+          <p>{props.description}</p>
+        ) }
 
         {props.children}
       </div>
 
     </header>
-  );
+  )
 }

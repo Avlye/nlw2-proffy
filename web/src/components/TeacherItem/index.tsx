@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 import WhatsAppIcon from '../../assets/images/icons/whatsapp.svg'
 
-import "./styles.scss"
+import './styles.scss'
 
 export const TeacherItem = () => {
   return (
