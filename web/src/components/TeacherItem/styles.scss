@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: space-between;
 
-    button {
+    a {
       width: 20rem;
       height: 5.6rem;
       background: $secundary;
@@ -32,6 +32,8 @@
       border-radius: 0.8rem;
       cursor: pointer;
       font: 700 1.4rem "Archivo";
+
+      text-decoration: none;
 
       display: flex;
       align-items: center;
@@ -100,10 +102,11 @@
         }
       }
 
-      button {
+      a {
         width: 24.5rem;
         font-size: 1.6rem;
         justify-content: center;
+        text-decoration: none;
 
         img {
           margin-right: 1.6rem;

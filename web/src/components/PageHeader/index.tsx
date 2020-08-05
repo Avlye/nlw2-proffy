@@ -9,10 +9,13 @@ import './styles.scss'
 
 interface PageHeaderProps {
   title: string,
-  description?: string
+  description?: string,
+  children?: React.ReactNode
 }
 
-export const PageHeader: React.FC<PageHeaderProps> = (props) => {
+export const PageHeader: React.FC<PageHeaderProps> = (
+  props: PageHeaderProps
+) => {
   return (
     <header className="page-header">
       <div className="top-bar-container">
@@ -25,9 +28,7 @@ export const PageHeader: React.FC<PageHeaderProps> = (props) => {
 
       <div className="header-content">
         <strong>{props.title}</strong>
-        { props.description && (
-          <p>{props.description}</p>
-        ) }
+        {props.description && <p>{props.description}</p>}
 
         {props.children}
       </div>
