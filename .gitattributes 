@@ -1,4 +1,4 @@
 ./web/config/* linguist-vendored
 ./web/scripts/* linguist-vendored
 
-*.js linguist-language=TypeScript
+*.js linguist-detectable=false
