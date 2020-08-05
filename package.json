@@ -1,0 +1,12 @@
+{
+  "name": "nlw2-proffy",
+  "version": "0.12.0",
+  "private": true,
+  "repository": "https://github.com/Avlye/nlw2-proffy.git",
+  "author": "Gabriel Almir <avlye@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn --cwd ./server/ start",
+    "web": "yarn --cwd ./web/ start"
+  }
+}

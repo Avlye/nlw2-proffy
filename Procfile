@@ -1,2 +1,2 @@
-server: yarn --cwd ./server/ start
-web: yarn --cwd ./web/ start
+server: yarn server
+web: yarn web
