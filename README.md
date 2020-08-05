@@ -4,15 +4,28 @@
 
 </div>
 
-<div align="center">
+<h1 align="center">Welcome to Proffy 👋</h1>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.12-blue.svg?color=ab0387&cacheSeconds=2592000" />
+  <a href="https://github.com/Avlye/nlw2-proffy" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?color=ab0387" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg?color=ab0387" />
+  </a>
+  <a href="https://twitter.com/avlyev" target="_blank">
+    <img alt="Twitter: avlyev" src="https://img.shields.io/twitter/follow/avlyev.svg?style=social" />
+  </a>
 
-[![Twitter Badge](https://img.shields.io/badge/-@avlyev-00a1f4?style=flat-square&labelColor=ab0387&logo=twitter&logoColor=white&link=https://twitter.com/avlyev)](https://twitter.com/avlyev)
-[![Linkedin Badge](https://img.shields.io/badge/-avlye-00a1f4?style=flat-square&labelColor=ab0387&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/avlye/)](https://www.linkedin.com/in/avlye/)
-[![Github Stars](https://img.shields.io/github/stars/avlye/nlw2-proffy?color=ab0387&logo=github&logoColor=white)](https://github.com/Avlye/nlw2-proffy/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?color=ab0387)](./LICENSE)
-[![Build Status](https://travis-ci.org/Avlye/nlw2-proffy.svg?branch=master)](https://travis-ci.org/Avlye/nlw2-proffy)
+  <a href="https://www.linkedin.com/in/avlye/" target="_blank">
+    <img alt="Twitter: avlyev" src="https://img.shields.io/badge/-avlye-00a1f4?style=flat-square&labelColor=ab0387&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/avlye/" />
+  </a>
 
-</div>
+  <a href="https://github.com/Avlye/nlw2-proffy/stargazers" target="_blank">
+    <img alt="Twitter: avlyev" src="https://img.shields.io/github/stars/avlye/nlw2-proffy?color=ab0387&logo=github&logoColor=white" />
+  </a>
+</p>
+
 
 <div align="center">
 
@@ -22,8 +35,7 @@ console.log("🚀 Project Made in Next Level Week. Build with ❤️")
 
 </div>
 
-
-👽 Table of Contents
+🚩 Table of Contents
 =================
 
 <!--ts-->
@@ -79,13 +91,15 @@ Also he uses some kind of hack in his life, but don't tell everyone.
 
 #### Web
 
-![Preview Web](./design/images/preview-web.png)
+<img src="./design/images/preview-web.png" height="600">
 
 
 ### Mobile
 
-![Preview Mobile](./design/images/preview-mobile.png)
+<img src="./design/images/preview-mobile.png" height="600">
 
+
+### 🏠 [Homepage](https://github.com/Avlye/nlw2-proffy)
 
 ## 💻 3. Our Stack
 
@@ -152,7 +166,7 @@ We provide some guides here than can help you:
 - Node.js
 - Yarn
 
-### Speed up thrusters
+### Speed up thrusters: Turbo Level 1
 
 ```zsh
 
@@ -185,7 +199,7 @@ Psiu: This maybe can help you install SQLite. 😉
 sudo apt install sqlite3 libsqlite3-dev -y
 ```
 
-### Speed up thrusters: Turbo 2
+### Speed up thrusters: Turbo Level 2
 
 ```zsh
 # Go to the server project
@@ -203,8 +217,28 @@ $ yarn start
 
 Server would be running at [http://localhost:3333](http://localhost:3333) by default.
 
-## 📕 License
+## Author
 
-All files included here including this *README* are under [MIT LICENSE](./LICENSE).
+👤 **Gabriel Almir**
 
-Created by [Gabriel (Avlye) Almir](https://github.com/Avlye). Yo, it's me! 😊
+* Website: http://avlye.me
+* Twitter: [@avlyev](https://twitter.com/avlyev)
+* Github: [@Avlye](https://github.com/Avlye)
+* LinkedIn: [@avlye](https://linkedin.com/in/avlye)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Avlye/nlw2-proffy/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<a href="https://www.patreon.com/avlye">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## 📝 License
+
+Copyright © 2020 [Gabriel Almir](https://github.com/Avlye). Yo, it's me! 😊<br />
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
