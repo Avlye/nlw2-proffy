@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "start:server": "yarn --cwd ./packages/server start",
+    "start:server": "yarn --cwd ./packages/server knex:migrate && yarn --cwd ./packages/server start",
     "start:web": "yarn --cwd ./packages/web start"
   },
   "repository": "https://github.com/Avlye/nlw2-proffy.git",

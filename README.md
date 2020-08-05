@@ -170,16 +170,11 @@ We provide some guides here than can help you:
 
 ```zsh
 
-# Go to the web folder
-# cd means change directory
-# cd <path>
-$ cd nlw2-proffy/web
-
 # Install Dependencies (with YARN)
 $ yarn install
 
 # Run the Web App
-$ yarn start
+$ yarn start:web
 ```
 
 Don't be shy, go to [http://localhost:3000](http://localhost:3000) to see the result.
@@ -202,17 +197,11 @@ sudo apt install sqlite3 libsqlite3-dev -y
 ### Speed up thrusters: Turbo Level 2
 
 ```zsh
-# Go to the server project
-$ cd nlw2-proffy/server
-
 # Install Dependencies (with Yarn)
 $ yarn install
 
-# Make Migrations
-$ yarn knex:migrate
-
 # Run Server
-$ yarn start
+$ yarn start:server
 ```
 
 Server would be running at [http://localhost:3333](http://localhost:3333) by default.
