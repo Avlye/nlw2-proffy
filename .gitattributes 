@@ -1,2 +1,2 @@
-web/config/*.js linguist-vendored
-web/scripts/*.js linguist-vendored
+web/config/* linguist-vendored
+web/scripts/* linguist-vendored
