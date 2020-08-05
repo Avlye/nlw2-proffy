@@ -1,2 +1,2 @@
-web/config/* linguist-vendored
-web/scripts/* linguist-vendored
+web/config/* linguist-vendored=false
+web/scripts/* linguist-vendored=false
