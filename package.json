@@ -6,7 +6,7 @@
   "author": "Gabriel Almir <avlye@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "server": "yarn --cwd ./server/ start",
-    "web": "yarn --cwd ./web/ start"
+    "server": "yarn --cwd ./server/ install && yarn --cwd ./server/ start",
+    "web": "yarn --cwd ./web/ install && yarn --cwd ./web/ start"
   }
 }
