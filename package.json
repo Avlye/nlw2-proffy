@@ -8,9 +8,6 @@
       "packages/*"
     ]
   },
-  "scripts": {
-    "heroku-prebuild": "./scripts/heroku.build"
-  },
   "repository": "https://github.com/Avlye/nlw2-proffy.git",
   "author": "Gabriel Almir <avlye@outlook.com>",
   "license": "MIT"
