@@ -174,7 +174,7 @@ We provide some guides here than can help you:
 $ yarn install
 
 # Run the Web App
-$ yarn start:web
+$ yarn workspace web start
 ```
 
 Don't be shy, go to [http://localhost:3000](http://localhost:3000) to see the result.
@@ -201,7 +201,7 @@ sudo apt install sqlite3 libsqlite3-dev -y
 $ yarn install
 
 # Run Server
-$ yarn start:server
+$ yarn workspace server start
 ```
 
 Server would be running at [http://localhost:3333](http://localhost:3333) by default.
