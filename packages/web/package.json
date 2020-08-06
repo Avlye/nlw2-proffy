@@ -77,7 +77,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "production": "serve -s build -p 80"
+    "production": "serve -s build -p 8080"
   },
   "eslintConfig": {
     "extends": "react-app"
