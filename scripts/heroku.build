@@ -5,3 +5,4 @@ yarn workspace web install
 
 # Preconfig
 yarn workspace server knex:migrate
+yarn workspace web build
