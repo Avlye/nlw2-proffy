@@ -1,2 +1,2 @@
-server: yarn start:server
-web: yarn start:web
+server: yarn workspace server start
+web: yarn workspace web start
