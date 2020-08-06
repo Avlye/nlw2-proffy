@@ -13,8 +13,5 @@
   },
   "repository": "https://github.com/Avlye/nlw2-proffy.git",
   "author": "Gabriel Almir <avlye@outlook.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^3.9.7"
-  }
+  "license": "MIT"
 }
