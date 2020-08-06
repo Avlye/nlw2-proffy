@@ -1,0 +1,7 @@
+# Install Dependencies
+yarn install
+yarn workspace server install
+yarn workspace web install
+
+# Preconfig
+yarn workspace server knex:migrate

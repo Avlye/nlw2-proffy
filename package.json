@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "heroku-prebuild": "yarn install && yarn workspace server knex:migrate"
+    "heroku-prebuild": "./scripts/heroku.build"
   },
   "repository": "https://github.com/Avlye/nlw2-proffy.git",
   "author": "Gabriel Almir <avlye@outlook.com>",
