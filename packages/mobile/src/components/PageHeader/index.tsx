@@ -33,8 +33,6 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
         <Image source={logoImg} resizeMode='contain' />
       </View>
 
-      <Text style={styles.title}>{title}</Text>
-
       <View style={styles.header}>
         <Text style={styles.title}>{ title }</Text>
         {headerRight}

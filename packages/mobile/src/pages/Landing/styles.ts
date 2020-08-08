@@ -59,8 +59,10 @@ const styles = StyleSheet.create({
     color: '#d4c2ff',
     fontSize: 12,
     lineHeight: 20,
-    maxWidth: 140,
-    marginTop: 40
+    // maxWidth: 140,
+    marginTop: 20,
+    marginBottom: 20,
+    alignSelf: 'center'
   }
 })
 
