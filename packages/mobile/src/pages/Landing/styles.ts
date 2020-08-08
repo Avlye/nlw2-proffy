@@ -25,7 +25,11 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_600SemiBold'
   },
 
-  buttonsContainer: {},
+  buttonsContainer: {
+    flexDirection: 'row',
+    marginTop: 40,
+    justifyContent: 'space-between'
+  },
 
   button: {
     height: 150,
