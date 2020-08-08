@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import { AppLoading } from "expo";
 import { View, Text, Image } from "react-native";
@@ -16,6 +16,7 @@ import landingImg from '../../assets/images/landing.png'
 import studyIcon from '../../assets/images/icons/study.png'
 import giveClassesIcon from '../../assets/images/icons/give-classes.png'
 import heartIcon from '../../assets/images/icons/heart.png'
+import { api } from "../../services/api";
 
 export function Landing() {
   const { navigate } = useNavigation()
@@ -24,6 +25,15 @@ export function Landing() {
     Archivo_400Regular, Archivo_700Bold,
     Poppins_400Regular, Poppins_600SemiBold
   })
+
+  const [totalConnections, setTotalConnections] = useState(0)
+
+  useEffect(() => {
+    api.get('connections').then(response => {
+      const { total } = response.data
+      setTotalConnections(total)
+    })
+  }, [])
 
   function handleNavigateToGiveClassesPage() {
     navigate('GiveClasses')
@@ -66,7 +76,7 @@ export function Landing() {
         </View>
 
         <Text style={styles.totalConnections}>
-          Total de 285 conexões já realizadas {' '}
+          Total de {totalConnections} conexões já realizadas {' '}
           <Image source={heartIcon} />
         </Text>
       </View>
