@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { StatusBar } from 'expo-status-bar';
-import { Landing } from './src/pages/Landing';
+import { AppStack } from './src/routes/AppStack';
 
 export default function App() {
   return (
     <>
-      <Landing />
+      <AppStack />
       <StatusBar style="light" />
     </>
   );
