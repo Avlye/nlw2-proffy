@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     borderColor: '#FE6EF0',
     borderRadius: 8,
     marginBottom: 16,
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
 
   profile: {
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
-    marginRight: 0,
+    marginRight: 4,
   },
 
   favorited: {
