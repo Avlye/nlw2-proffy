@@ -73,14 +73,12 @@ export const TeacherItem: React.FC<TeacherItemProps> = ({
 
         <View style={styles.profileInfo}>
           <Text style={styles.name}>{teacher.name}</Text>
-          <Text style={styles.subject}>{teacher.bio}</Text>
+          <Text style={styles.subject}>{teacher.subject}</Text>
         </View>
       </View>
 
       <Text style={styles.bio}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        {'\n'}{'\n'}
-        Ullam aperiam libero, asperiores harum doloremque perferendis commodi quaerat quos maiores recusandae impedit at numquam provident architecto temporibus aliquam eligendi laboriosam vel.
+        {teacher.bio}
       </Text>
 
       <View style={styles.footer}>
